@@ -1,5 +1,27 @@
 import styled from "styled-components";
 
+export const ResumeBtn = styled.button`
+	display: flex;
+	justify-content: space-around;
+	width: 200px;
+	border: none;
+	text-align: center;
+	size: px;
+	background-color: #1a1a1a;
+	color: white;
+	display: inline-block;
+	position: relative;
+	padding: 10px 25px;
+
+	background-color: #4cc713;
+	color: white;
+
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 0.9em;
+	text-align: center;
+	text-indent: 15px;
+`;
 export const CarouselContainer = styled.ul`
 	max-width: 1040px;
 	background: #0f1624;
